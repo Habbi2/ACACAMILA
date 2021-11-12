@@ -1,0 +1,92 @@
+@import "~bootstrap/scss/bootstrap";
+
+.navbar {
+  .container {
+    display: inline;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.col-img {
+  display: flex;
+  align-items: center;
+}
+
+.container-banner {
+  max-width: 95%;
+  padding: 8vw;
+}
+
+.baner {
+  background-color: #ffb392;
+}
+
+.ver-mas {
+  margin-top: 4vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tags {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#card-title {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.card-buttons {
+  width: 3vw;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-navbar {
+  height: 12vh;
+  background-color: #ffb392;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  height: 12vh;
+}
+
+#navbarScroll {
+  display: inline-flex;
+  justify-content: end;
+  min-width: 45vw;
+  padding-right: 3vw;
+}
+
+.button-emp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24vw;
+  height: 5vh;
+  background: border-box;
+  border-radius: 28.5px;
+  .btn-a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
